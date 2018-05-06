@@ -1,0 +1,27 @@
+{
+  "name": "q1FinalProject",
+  "version": "1.0.0",
+  "description": "Q1 Final Project",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpizarro03/q1FinalProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpizarro03/q1FinalProject/issues"
+  },
+  "homepage": "https://github.com/mpizarro03/q1FinalProject#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}
