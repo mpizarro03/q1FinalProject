@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Parallax Template - Materialize</title>
 
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Parallax Template - Materialize</title>
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 </head>
-<body>
-  <nav class="white" role="navigation">
+
+<body class="topo-image">
+  <!-- nav bar; .nav-bar for color option -->
+  <nav class="nav-bar" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">The Race Blogger</a>
+      <a id="logo-container" href="#" class="brand-logo white-text">The Race Blogger</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#">Bio</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">Book</a></li>
       </ul>
-
       <ul id="nav-mobile" class="sidenav">
         <li><a href="#">Bio</a></li>
         <li><a href="#">Blog</a></li>
@@ -30,16 +31,17 @@
     </div>
   </nav>
 
+  <!-- main page image container -->
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
+        <h1 class="header center ">The Race Blogger</h1>
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12">Training and Racing triathlons and ultras</h5>
         </div>
         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+          <a href="#" id="download-button" class="btn-large waves-effect waves-light ">About Me</a>
         </div>
         <br><br>
 
@@ -49,45 +51,53 @@
   </div>
 
 
-  <div class="container">
+  <div class="container ">
     <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
+      <div class="row ">
+        <!-- 1st card: BIO -->
         <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">BIO</h5>
-
-            <p class="light">I started running in 2000 and cycling in 2001. Within a couple of years I did my first marathon and then triathlon. Since then, I’ve enjoyed training for half and full distance triathlons, marathons, ultramarathons and century bike rides. I live in the northwest suburbs of Chicago, Illinois.</p>
-          </div>
+            <div class="card grey z-depth-5">
+              <div class="card-action">
+                <h5 class="center"><a class="white-text card-title" href="#">BIO</a></h5>
+              </div>
+              <div class="card-content black-text">
+                <p>I started running in 2000 and cycling in 2001. Within a couple of years I did my first marathon and then triathlon. Since then, I’ve enjoyed training for half and full distance triathlons, marathons, ultramarathons and century bike rides.
+                  I live in the northwest suburbs of Chicago, Illinois.</p>
+              </div>
+            </div>
         </div>
-
+        <!-- 2nd card: Blog -->
         <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">BLOG</h5>
 
-            <p class="light">This blog is about my personal experiences with training and racing triathlons, ironmans, marathons, ultramarathons, bike rides and other shorter races. You will find race reports with course descriptions as well as training reports.
+            <div class="card z-depth-5 nav-bar">
+              <div class="card-action">
+                <h5 class="center"><a class="white-text" href="#">BLOG</a></h5>
+              </div>
+              <div class="card-content black-text">
+                <p>This blog is about my personal experiences with training and racing triathlons, ironmans, marathons, ultramarathons, bike rides and other shorter races. You will find race reports with course descriptions as well as training reports.</p>
+              </div>
+            </div>
 
-</p>
-          </div>
         </div>
-
+        <!-- 3rd card: Book -->
         <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">BOOK: TEN DAYS</h5>
 
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
+            <div class="card">
+              <div class="card-action">
+                <h5 class="center"><a href="#">BOOK</a></h5>
+              </div>
+              <div class="card-content black-text">
+                <p>This blog is about my personal experiences with training and racing triathlons, ironmans, marathons, ultramarathons, bike rides and other shorter races. You will find race reports with course descriptions as well as training reports.</p>
+              </div>
+            </div>
+
         </div>
       </div>
-
     </div>
   </div>
 
 
+  <!-- image 2 -->
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
@@ -98,22 +108,19 @@
     </div>
     <div class="parallax"><img src="sample-pics/blue-clouds-dawn-207385.jpg" alt="Unsplashed background img 2"></div>
   </div>
-
-  <div class="container">
+<div class="container">
     <div class="section">
-
       <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
+        <div class="col s12 l12 center">
           <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra
+            ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices
+            erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
         </div>
       </div>
-
     </div>
-  </div>
-
-
+</div>
+  <!-- image 3 -->
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
@@ -125,38 +132,28 @@
     <div class="parallax"><img src="sample-pics/blue-clouds-dawn-207385.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
-  <footer class="page-footer grey">
+  <!-- footer -->
+  <footer class="page-footer">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
+        <div class="col l10 s12">
+          <h5 class="white-text">The Race Blogger</h5>
+          <p class="grey-text text-lighten-4">I am athlete, father & electrician by trace.... <br>
+            hoping you will follow my journey to greatness.</p>
         </div>
-        <div class="col l3 s12">
+        <div class="col l2 s12">
           <h5 class="white-text">Settings</h5>
           <ul>
             <li><a class="white-text" href="#!">Link 1</a></li>
             <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="accent-color" href="">Melissa Pizarro</a>
+      <div class="container white-text">
+        Made by <a class="white-text" href="">Melissa Pizarro</a>
       </div>
     </div>
   </footer>
@@ -167,5 +164,6 @@
   <script src="js/materialize.min.js"></script>
   <script src="js/init.js"></script>
 
-  </body>
+</body>
+
 </html>

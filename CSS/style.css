@@ -1,18 +1,31 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
 
-nav ul a,
+nav ul,
 nav .brand-logo {
   color: #164576;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+
 }
+
+
+.card-title {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
+.nav-bar {
+  margin: 0;
+  background-color: #474716;
+}
+
+/* body div.row-color-option {
+
+  background-color: : #8d8d8d;
+} */
 
 p {
   line-height: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+
 }
 
 .sidenav-trigger {
@@ -21,7 +34,7 @@ p {
 
 /*color for font inside parallax*/
 .parallax-container {
-  min-height: 380px;
+  min-height: 450px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -46,18 +59,15 @@ p {
   }
 }
 
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
 footer.page-footer {
   margin: 0;
-
+  background-color: #474716;;
 }
-/* color for text inside this tag in footer */
-.accent-color {
-  color: #8cb369
+.white-color {
+  background-color: #f5f5f5;
+}
+topo-image {
+  background-color: #f0f0f0;
+  background-repeat: repeat;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'");
 }
