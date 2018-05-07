@@ -6,6 +6,10 @@ nav .brand-logo {
   font-weight: 700;
   text-shadow: 1px 1px #171923;
 }
+
+.slider .indicators .indicator-item.active {
+  background-color: #e58200;
+}
 .header {
   color: #e58200;
   font-family: 'Ubuntu', sans-serif;
@@ -17,7 +21,12 @@ nav .brand-logo {
   color: #e2dede;
   font-weight: 700;
 }
+a {
+  color: #e58200;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
 
+}
 .nav-bar {
   margin: 0;
   background-color: #474716;
@@ -29,14 +38,16 @@ color: #F7F7F7;
 border-radius: 20px;
 padding: 15px;
 text-align: justify;
-
+opacity: .75;
 }
+
 .btn-large {
 color: #f7f7f7;
 font-family: 'Ubuntu', sans-serif;
 font-weight: 700;
 background-color: #e58200;
 border-radius: 10px;
+opacity: .90;
 }
 
 .btn:hover, .btn-large:hover, .btn-small:hover {
@@ -65,6 +76,11 @@ p {
   color: #164576;
 }
 
+.slider {
+  /* min-height: 500px;
+  line-height: 0;
+  height: auto; */
+}
 /*color for font inside parallax*/
 .parallax-container {
   min-height: 450px;
