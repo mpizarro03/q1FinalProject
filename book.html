@@ -67,27 +67,30 @@
       <div class="container center-align">
         <div class="col s12 l12">
           <h4 class="center-align">Stay up to date.... </h4>
-          <form id="myForm" class="card">
+          <form id="myForm" method="POST" action="https://formspree.io/mpizarro03@gmail.com">
+            <div class="row card">
             <div class="row">
               <div class="input-field col s6 l12">
-                <input placeholder="Melissa Pizarro" id="full_name" type="text" class="validate" required>
+                <input placeholder="Melissa Pizarro" id="full_name" type="text" name="name" class="validate" required>
                 <label class="active" for="full_name">Full Name*</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col s6 l12">
-                <input placeholder="m*******@gmail.com" id="email" type="email" class="validate" required>
+                <input placeholder="m*******@gmail.com" id="email" type="email" name="_replyto" class="validate" required>
                 <label class="active" for="email">E-mail*</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col s6 l12">
-                <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-                <label for="icon_prefix2">Message</label>
+                <textarea id="icon_prefix2" class="materialize-textarea" placeholder="Your message" type="text" name="message" required></textarea>
+                <label for="icon_prefix2">Message*</label>
               </div>
             </div>
+            </div>
+            <button type="submit" id="submit-button" class="btn-large waves-effect waves-light">Submit</button>
+
           </form>
-          <a href="#" id="submit-button" class="btn-large waves-effect waves-light">Submit</a>
         </div>
       </div>
     </div>
