@@ -12,23 +12,23 @@ $(document).ready(function(){
  });
 
 
- document.addEventListener("DOMContentLoaded", function () {
-
- let form = document.getElementById('Form')
- let submit = document.getElementById("submit-button")
-
-
-
-   	submit.addEventListener("click", function () {
-     	if(checkbox.checked && !secretInput.value) {
-       	event.preventDefault();
-       	alert("enter secret password");
-    	 } else if (checkbox.checked && secretInput.value !== secretPassword) {
-      event.preventDefault();
-      alert("wrong secret password")
-      }
-      else if (checkbox.checked && secretInput.value == secretPassword && email.checkValidity() && password.checkValidity())
-      {alert("good job!")}
-   })
-
- });
+ // document.addEventListener("DOMContentLoaded", function () {
+ //
+ // let form = document.getElementById('Form')
+ // let submit = document.getElementById("submit-button")
+ //
+ //
+ //
+ //   	submit.addEventListener("click", function () {
+ //     	if(checkbox.checked && !secretInput.value) {
+ //       	event.preventDefault();
+ //       	alert("enter secret password");
+ //    	 } else if (checkbox.checked && secretInput.value !== secretPassword) {
+ //      event.preventDefault();
+ //      alert("wrong secret password")
+ //      }
+ //      else if (checkbox.checked && secretInput.value == secretPassword && email.checkValidity() && password.checkValidity())
+ //      {alert("good job!")}
+ //   })
+ //
+ // });

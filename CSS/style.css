@@ -21,6 +21,12 @@ nav .brand-logo {
   color: #e2dede;
   font-weight: 700;
 }
+.cart-card-title {
+  font-family: 'Ubuntu', sans-serif;
+  color: #e58200;
+  font-weight: 700;
+  font-size: 24px;
+}
 a {
   color: #e58200;
   font-family: 'Ubuntu', sans-serif;
