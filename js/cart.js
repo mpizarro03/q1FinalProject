@@ -1,15 +1,17 @@
-(function($){
-  $(function(){
-
-    $('.sidenav').sidenav();
-    $('.parallax').parallax();
-
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
+// (function($){
+//   $(function(){
+//
+//     $('.sidenav').sidenav();
+//     $('.parallax').parallax();
+//
+//   }); // end of document ready
+// })(jQuery); // end of jQuery name space
 
 $(document).ready(function(){
    $('.slider').slider();
 
+   $('.sidenav').sidenav();
+   $('.parallax').parallax();
 
 
 $(".cart-card-action").on("click", "a", addItem);
