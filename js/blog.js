@@ -3,11 +3,19 @@
 
   var $xhr = $.getJSON("https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ftheraceblogger.com%2Ffeed");
   $xhr.done(function(data) {
-    // return data
-console.log(data)
+    let links = data.items[0].link
 
+    let parent1 = document.getElementsByClassName("articles1")[0];
+    let newLink1 = document.createElement("a");
+    newLink1.innerHTML = links;
+    parent1.appendChild(newLink1);
 
 })
+
+
+
+
+});
 // console.log($xhr)
  // let allData = fetch("https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ftheraceblogger.com%2Ffeed").then((res) => {
  //   //   res.text().then((htmlTxt) => {
@@ -39,5 +47,3 @@ console.log(data)
 
    //   // })
    // }).catch(() => console.error('Error in fetching the website'))
-
-  });
