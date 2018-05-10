@@ -3,47 +3,27 @@
 
   var $xhr = $.getJSON("https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ftheraceblogger.com%2Ffeed");
   $xhr.done(function(data) {
-    let links = data.items[0].link
 
-    let parent1 = document.getElementsByClassName("articles1")[0];
-    let newLink1 = document.createElement("a");
-    newLink1.innerHTML = links;
-    parent1.appendChild(newLink1);
+  // console.log(data.items);
+
+  let links = data.items
+  // console.log(links);
+
+  for(let i = 0; i < links.length; i++){
+    let linkValue = links[i].link
+    console.log(linkValue);
+    let parent1 = document.getElementsByClassName("articles")[0]
+    console.log(parent1)
+    let newLink1 = document.createElement("li")
+    let innerHtml = `<a href = ${linkValue}>test</a>`
+    newLink1.innerHTML = innerHtml
+    parent1.appendChild(newLink1)
+
+  }
 
 })
-
-
-
-
-});
-// console.log($xhr)
- // let allData = fetch("https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ftheraceblogger.com%2Ffeed").then((res) => {
- //   //   res.text().then((htmlTxt) => {
- //   //     var domParser = new DOMParser()
- //   //     let doc = domParser.parseFromString(htmlTxt, 'text/html');
-
-       // let test = doc.getElementsByTagName("title")[2].innerHTML;
-
-
-       // let parent = document.getElementsByClassName("articles")[0];
-       // let newLink = document.createElement("li");
-       // newLink.innerHTML = test;
-       // parent.appendChild(newLink);
-       //
-       // // let test2 = doc.getElementsByTagName("item");
-       // // console.log(test2);
-       //
-       // let test1 = doc.getElementsByTagName("item")[0].innerHTML;
-       //
-       // console.log(test1);
-       //
-       // let parent1 = document.getElementsByClassName("articles")[0];
-       // let newLink1 = document.createElement("li");
-       // newLink1.innerHTML = test1;
-       // parent1.appendChild(newLink1);
-
-       // let test1 = doc.getElementsByTagName("item");
-       // console.log(test1);
-
-   //   // })
-   // }).catch(() => console.error('Error in fetching the website'))
+    // let parent1 = document.getElementsByClassName("articles1")[0];
+    // let newLink1 = document.createElement("a");
+    // newLink1.innerHTML = links;
+    // parent1.appendChild(newLink1);
+})
