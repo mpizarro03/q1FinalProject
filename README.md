@@ -7,7 +7,7 @@ GitHub: https://github.com/mpizarro03/q1FinalProject
 
 Wireframe: https://snag.gy/jgMNFi.jpg
 
-Surge: theraceblogger34d.surge.sh
+Surge: theraceblogger4p.surge.sh
 
 ### Usage API
 
