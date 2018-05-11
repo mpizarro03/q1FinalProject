@@ -7,8 +7,8 @@ GitHub: https://github.com/mpizarro03/q1FinalProject
 
 Wireframe: https://snag.gy/jgMNFi.jpg
 
-Surge: theraceblogger1.surge.sh
+Surge: theraceblogger34d.surge.sh
 
 ### Usage API
 
-Make requests to: `https://g-theraceblogger.herokuapp.com/?t=the+matrix&y=&plot=short&r=json`
+Make requests to: https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ftheraceblogger.com%2Ffeed
