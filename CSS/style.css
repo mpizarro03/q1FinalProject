@@ -6,28 +6,57 @@ nav .brand-logo {
   font-weight: 700;
   text-shadow: 1px 1px #171923;
 }
-.blogpics1 {
-    width: 300px;
-    height: 250;
-    border-radius: 20px;
+.stairs {
+  width: 340px;
+  height: 350px;
+}
+.card-image {
+  opacity: 1;
+  width: auto;
+  height: 200px;
+  border-radius: 8px;
 }
 
+.blogpics1 {
+    width: auto;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.card-blog {
+background-color: #3F3F0C;
+font-family: "Ubuntu", sans-serif;
+color: #F7F7F7;
+border-radius: 20px;
+padding: 15px;
+text-align: justify;
+opacity: .75;
+}
+
+.blogP {
+  line-height: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+  color:#F7F7F7;
+}
 
 .strava-badge- {
-  display: inline-block; height: 16px;
+  display: inline-block; height: 30px;
 }
 .strava-badge- img {
-  visibility: hidden; height: 16px;
+  visibility: hidden; height: 30px;
 }
 .strava-badge-:hover {
   background-position: 0 -31px;
 }
 .strava-badge-follow {
-  height: 16px; width: 16px;
-  background: url(//badges.strava.com/echelon-sprite-16.png) no-repeat 0 0;
+  height: 30px; width: 30px;
+  no-repeat 0 0;
 }
-.fab .fa-facebook-square {
-  height: 15px;
+.facebook-logo{
+  margin-right: 10px;
+  height: 23px;
+  color: #e58200
+
 }
 
 .slider .indicators .indicator-item.active {
@@ -43,6 +72,7 @@ nav .brand-logo {
   font-family: 'Ubuntu', sans-serif;
   color: #e2dede;
   font-weight: 700;
+  text-align: center;
 }
 .cart-card-title {
   font-family: 'Ubuntu', sans-serif;
@@ -67,6 +97,16 @@ color: #F7F7F7;
 border-radius: 20px;
 padding: 15px;
 text-align: justify;
+opacity: .75;
+
+}
+.card-blog {
+background-color: #3F3F0C;
+font-family: "Ubuntu", sans-serif;
+color: #F7F7F7;
+border-radius: 20px;
+padding: 15px;
+min-height: 400px;
 opacity: .75;
 }
 
@@ -106,12 +146,12 @@ opacity: .90;
 p {
   line-height: 2rem;
   font-family: 'Ubuntu', sans-serif;
-
 }
 
 .sidenav-trigger {
-  color: #164576;
+  color: #e58200;
 }
+
 
 .slider {
   /* min-height: 500px;
@@ -120,7 +160,7 @@ p {
 }
 /*color for font inside parallax*/
 .parallax-container {
-  min-height: 450px;
+  min-height: 425px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -148,6 +188,11 @@ p {
 footer.page-footer {
   margin: 0;
   background-color: #474716;;
+
+}
+.page-footer {
+  padding-top: 25px;
+  padding-bottom; 0;
 }
 
 input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
